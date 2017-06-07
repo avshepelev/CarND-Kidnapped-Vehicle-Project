@@ -102,6 +102,27 @@ public:
 	void write(std::string filename);
 	
 	/**
+	 * printParticles 
+	 *   
+	 */
+
+	void printParticles(std::vector<Particle> pars);
+
+	/**
+	 * printWeights
+	 *   
+	 */
+
+	void printWeights();
+
+	/**
+	 * printLandmarks
+	 *   
+	 */
+
+	void printLandmarks(std::vector<LandmarkObs> landmarks);
+
+	/**
 	 * initialized Returns whether particle filter is initialized yet or not.
 	 */
 	const bool initialized() const {
